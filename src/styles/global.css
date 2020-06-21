@@ -1,4 +1,5 @@
 @import "./../../node_modules/modern-normalize/modern-normalize.css";
+/* @import "./debug.css"; */
 
 body {
   color: #1e1e3f;
@@ -9,6 +10,7 @@ body {
 }
 
 a {
+  display: inline-block;
   color: #4d21fc;
   font-weight: 500;
   text-decoration: none;
@@ -35,7 +37,7 @@ a:hover {
   .layout {
     width: 75%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 2rem;
     padding: 0;
   }
 
@@ -67,8 +69,8 @@ a:hover {
 }
 
 .post__heading {
-  margin: 0;
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  padding: 0;
   color: #4d21fc;
   cursor: pointer;
 }
@@ -113,6 +115,7 @@ a:hover {
 
 .post-view__heading {
   margin: 0;
+  margin-top: 1rem;
   padding: 0.5rem 0;
   color: #4d21fc;
 }
