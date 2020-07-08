@@ -34,13 +34,6 @@ const Header = props => {
             </Link>
           </span>
         </li>
-        <li className="header__nav-item">
-          <span>
-            <Link to="/portfolio" activeClassName="annotate--underline">
-              Portfolio
-            </Link>
-          </span>
-        </li>
       </nav>
     </div>
   )
