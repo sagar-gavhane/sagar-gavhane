@@ -2,7 +2,7 @@
 
 My name is Sagar Gavhane.
 
-Passionate software engineer with 3.3+ years of experience in building products for numerous domains like fin-tech, real estate, video streaming, retail, and now e-commerce.
+Passionate software engineer with 3.6+ years of experience in building products for numerous domains like fin-tech, real estate, video streaming, retail, and now e-commerce.
 
 I’m currently available for work, you can take a look at my resume.
 
