@@ -13,3 +13,5 @@ Most of my work is open source and publicly available on [GitHub](https://github
 I spend my time Tweeting, taking photographs, making art & music, and writing code. I also write about design, courage, and lack thereof.
 
 Thank You 😊
+
+![sagar's github stats](https://github-readme-stats.vercel.app/api?username=sagar-gavhane&show_icons=true)
