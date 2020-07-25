@@ -14,4 +14,4 @@ I spend my time Tweeting, taking photographs, making art & music, and writing co
 
 Thank You 😊
 
-![sagar's github stats](https://github-readme-stats.vercel.app/api?username=sagar-gavhane&show_icons=true)
+![sagar's github stats](https://github-readme-stats.vercel.app/api?username=sagar-gavhane&show_icons=true&theme=shades-of-purple)
