@@ -10,10 +10,10 @@ import dateDiffInDays from "./../utils/dateDiffInDays"
 const IndexPage = () => {
   const layoutRef = useRef(null)
 
-  const careerStartDate = new Date(2017, 2, 1)
+  const careerStartDate = new Date(2016, 7, 1)
   const currentDate = new Date()
   const days = dateDiffInDays(careerStartDate, currentDate)
-  const fd = parseFloat(days / 365).toFixed(1)
+  const fd = parseFloat(days / 365).toFixed(0)
 
   useEffect(() => {
     const agGroup = []
