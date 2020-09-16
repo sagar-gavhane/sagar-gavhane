@@ -73,7 +73,7 @@ const IndexPage = () => {
           <span className="annotate--underline">available for work</span>, you
           can take a look at{" "}
           <ExternalLink
-            href="https://resume.io/r/zUMxWOl6F"
+            href="https://github.com/sagar-gavhane/sagar-gavhane/blob/master/Resume.pdf"
             className="annotate--underline"
           >
             my resume
