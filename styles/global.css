@@ -1,6 +1,9 @@
-@layer utilities {
-  .text-gradient {
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.project-list-item {
+  grid-template-columns: 48px 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .project-list-item {
+    grid-template-columns: 64px 1fr;
   }
 }
