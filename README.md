@@ -1,30 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello
 
-## Getting Started
+My name is Sagar Gavhane.
 
-First, run the development server:
+Passionate software engineer with 4+ years of experience in building products for numerous domains like fin-tech, real estate, video streaming, retail, and now e-commerce.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+I'm currently available for work, you can take a look at [my resume](https://github.com/sagar-gavhane/sagar-gavhane/blob/master/Resume.pdf).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I have an old blog which I no longer actively update - you probably want to follow me on [Twitter](https://twitter.com/sagar_codes), [Medium](https://medium.com/@sagar_gavhane), and [Dev](https://dev.to/sagar) for more up-to-date content.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Most of my work is open source and publicly available on [GitHub](https://github.com/sagar-gavhane).
 
-## Learn More
+I spend my time Tweeting, taking photographs, making art, and writing code. I also write about best practices, emerging technologies, and lack thereof.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank You
