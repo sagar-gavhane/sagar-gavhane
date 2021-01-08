@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Header from '~/components/Header'
+import truncateString from '~/utils/truncateString'
+
+import blogs from './../blogs.json'
 
 export default function Home() {
   const projects = [
@@ -32,16 +36,16 @@ export default function Home() {
         <title>Sagar Gavhane - Developer, writer, creator</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <div className='container mx-auto max-w-3xl px-6 xl:px-0'>
-        <h1 className='text-2xl sm:text-3xl font-bold mt-8'>
-          Hey, I'm <span className='text-purple-600'>Sagar Gavhane</span>
+        <h1 className='text-2xl sm:text-3xl font-bold mt-16'>
+          Hey, I'm <span className=''>Sagar Gavhane</span>
         </h1>
         <p className='my-2 text-gray-500'>
           I’m a developer, writer, and creator. I work at{' '}
           <a
             href='https://www.peppercontent.io/'
-            className='text-purple-700 hover:underline hover:text-purple-900'
+            className='text-black hover:underline'
             target='_blank'
             rel='noopener'
           >
@@ -58,7 +62,7 @@ export default function Home() {
           Connect with me on{' '}
           <a
             href='https://twitter.com/sagar_codes'
-            className='text-purple-700 cursor-pointer hover:underline hover:text-purple-900'
+            className='text-black cursor-pointer hover:underline'
             target='_blank'
             rel='noopener'
           >
@@ -87,9 +91,9 @@ export default function Home() {
                     href={project.link}
                     target='_blank'
                     rel='noopener'
-                    className='text-purple-700 cursor-pointer'
+                    className='cursor-pointer'
                   >
-                    <h3 className='text-base font-semibold inline-block hover:underline hover:text-purple-900'>
+                    <h3 className='text-base font-semibold inline-block hover:underline'>
                       {project.name}
                     </h3>
                   </a>
@@ -99,9 +103,33 @@ export default function Home() {
             )
           })}
         </ul>
-        <button className='grid justify-center w-full text-sm text-purple-700 hover:underline hover:text-purple-900'>
+        <button className='grid justify-center w-full text-sm text-black hover:underline'>
           More projects
         </button>
+        <h2 className='mt-6 text-xl font-semibold'>Blogs</h2>
+        <p className='text-gray-500 '>
+          I've been writing articles since 2018, mostly about web development
+          and tech careers.
+        </p>
+        <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-6'>
+          {blogs.map((blog) => {
+            return (
+              <li key={blog.id} className='my-4'>
+                <img className='rounded-md' src={blog.cover} alt={blog.title} />
+                <Link href={blog.slug}>
+                  <a>
+                    <h3 className='text-lg font-medium mt-2 hover:underline'>
+                      {blog.title}
+                    </h3>
+                  </a>
+                </Link>
+                <p className='text-gray-500'>
+                  {truncateString(blog.description, 120)}
+                </p>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </>
   )
