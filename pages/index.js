@@ -1,15 +1,29 @@
+import React, { useEffect, useState, Fragment } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Header from '~/components/Header'
 import truncateString from '~/utils/truncateString'
 import projects from 'constants/projects.json'
 
-import blogs from 'constants/blogs.json'
+function getBlogs() {
+  const url =
+    'https://dev.to/search/feed_content?per_page=100&page=0&user_id=81664&class_name=Article&sort_by=published_at&sort_direction=desc&approved='
+
+  return fetch(url).then(async (r) => {
+    const data = await r.json()
+    return data.result
+  })
+}
 
 export default function Home() {
+  const [blogs, setBlogs] = useState([])
+
+  useEffect(() => {
+    getBlogs().then((blogs) => setBlogs(blogs))
+  }, [])
+
   return (
-    <>
+    <Fragment>
       <Head>
         <title>Sagar Gavhane - Developer, writer, creator</title>
         <link rel='icon' href='/favicon.ico' />
@@ -94,18 +108,47 @@ export default function Home() {
           I've been writing articles since 2018, mostly about web development
           and tech careers.
         </p>
-        <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-6'>
+        <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-6 mb-4'>
           {blogs.map((blog) => {
             return (
               <li key={blog.id} className='my-4'>
-                <img className='rounded-md' src={blog.cover} alt={blog.title} />
-                <Link href={blog.slug}>
-                  <a>
+                <img
+                  className='rounded-md w-64 h-32'
+                  src={blog.main_image}
+                  alt={blog.title}
+                />
+                <Link href={`https://dev.to/${blog.path}`}>
+                  <a target='_blank' rel='noopener noreferrer'>
                     <h3 className='text-lg font-medium mt-2 hover:underline'>
                       {blog.title}
                     </h3>
                   </a>
                 </Link>
+                <div className='flex flex-wrap gap-2'>
+                  {blog.tag_list.map((tag) => {
+                    return (
+                      <span key={tag} className='text-gray-400 text-sm rounded'>
+                        #{tag}
+                      </span>
+                    )
+                  })}
+                </div>
+                <div className='grid grid-cols-3 my-2'>
+                  <span className='flex gap-1 items-center'>
+                    <img src='/like.svg' className='w-4 h-4' />
+                    <span className='text-sm'>
+                      {blog.public_reactions_count}
+                    </span>
+                  </span>
+                  <span className='flex gap-1 items-center justify-self-center'>
+                    <img src='/chat.svg' className='w-4 h-4' />
+                    <span className='text-sm'>{blog.comments_count}</span>
+                  </span>
+                  <span className='flex gap-1 items-center justify-end'>
+                    <img src='/alarm-clock.svg' className='w-4 h-4' />{' '}
+                    <span className='text-sm'>{blog.reading_time} min</span>
+                  </span>
+                </div>
                 <p className='text-gray-500'>
                   {truncateString(blog.description, 120)}
                 </p>
@@ -114,6 +157,6 @@ export default function Home() {
           })}
         </ul>
       </div>
-    </>
+    </Fragment>
   )
 }
