@@ -85,6 +85,7 @@ export default function Home() {
                   className='rounded project-list-item-logo flex justify-center items-center p-2 w-12 h-12 sm:w-16 sm:h-16'
                   src={project.logo}
                   alt={project.name}
+                  loading='lazy'
                 />
                 <div>
                   <a
@@ -116,6 +117,7 @@ export default function Home() {
                   className='rounded-md w-64 h-32'
                   src={blog.main_image}
                   alt={blog.title}
+                  loading='lazy'
                 />
                 <Link href={`https://dev.to/${blog.path}`}>
                   <a target='_blank' rel='noopener noreferrer'>
@@ -135,17 +137,21 @@ export default function Home() {
                 </div>
                 <div className='grid grid-cols-3 my-2'>
                   <span className='flex gap-1 items-center'>
-                    <img src='/like.svg' className='w-4 h-4' />
+                    <img src='/like.svg' className='w-4 h-4' loading='lazy' />
                     <span className='text-sm'>
                       {blog.public_reactions_count}
                     </span>
                   </span>
                   <span className='flex gap-1 items-center justify-self-center'>
-                    <img src='/chat.svg' className='w-4 h-4' />
+                    <img src='/chat.svg' className='w-4 h-4' loading='lazy' />
                     <span className='text-sm'>{blog.comments_count}</span>
                   </span>
                   <span className='flex gap-1 items-center justify-end'>
-                    <img src='/alarm-clock.svg' className='w-4 h-4' />{' '}
+                    <img
+                      src='/alarm-clock.svg'
+                      className='w-4 h-4'
+                      loading='lazy'
+                    />{' '}
                     <span className='text-sm'>{blog.reading_time} min</span>
                   </span>
                 </div>
