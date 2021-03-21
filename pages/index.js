@@ -3,33 +3,11 @@ import Link from 'next/link'
 
 import Header from '~/components/Header'
 import truncateString from '~/utils/truncateString'
+import projects from 'constants/projects.json'
 
 import blogs from './../blogs.json'
 
 export default function Home() {
-  const projects = [
-    {
-      id: '24a41ba3-1698-494b-a895-73fc3fe0f2f4',
-      name: 'Experience Manager (XM)',
-      description: `XM provides a single place to create, manage, and enrich your website content. An XM solution makes it faster and easier to create and deliver compelling online shopping experiences to your customers.`,
-      logo: `https://placehold.co/128x128`,
-      link: 'https://fabric.inc/xpm',
-    },
-    {
-      id: 'd34cf0d2-d132-4920-8aac-c2e3b2f6b117',
-      name: 'BuildDirect',
-      description: `BuildDirect connects homeowners and home improvement professionals with sellers around the world through innovation and technology, creating a much simpler and trusted shopping experience.`,
-      logo: `https://placehold.co/128x128`,
-      link: 'http://builddirect.com/',
-    },
-    {
-      id: 'c348291e-5e6e-4fb5-aa5c-69faacd91fd6',
-      name: 'EddieBauer',
-      description: `EddieBauer is a clothing store chain company based in  Bellevue, Washington DC. For over 100 years, Eddie Bauer has made apparel, footwear, and gear to inspire and enable you to Live Your Adventure.`,
-      logo: `https://placehold.co/128x128`,
-      link: 'https://www.eddiebauer.com/',
-    },
-  ]
   return (
     <>
       <Head>
