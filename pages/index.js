@@ -47,7 +47,7 @@ export default function Home() {
             href='https://www.peppercontent.io/'
             className='text-black hover:underline'
             target='_blank'
-            rel='noopener'
+            rel='noopener noreferrer'
           >
             Pepper Content
           </a>{' '}
@@ -55,7 +55,15 @@ export default function Home() {
           share my thoughts, experiences, and ideas.
         </p>
         <p className='my-2 text-gray-500'>
-          Most of my work is open source and publicly available on GitHub
+          Most of my work is open source and publicly available on{' '}
+          <a
+            href='https://github.com/sagar-gavhane'
+            className='text-black cursor-pointer hover:underline'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            GitHub
+          </a>{' '}
           account.
         </p>
         <p className='my-2 text-gray-500'>
@@ -64,7 +72,7 @@ export default function Home() {
             href='https://twitter.com/sagar_codes'
             className='text-black cursor-pointer hover:underline'
             target='_blank'
-            rel='noopener'
+            rel='noopener noreferrer'
           >
             Twitter
           </a>
