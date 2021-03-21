@@ -89,9 +89,6 @@ export default function Home() {
             )
           })}
         </ul>
-        <button className='grid justify-center w-full text-sm text-black hover:underline'>
-          More projects
-        </button>
         <h2 className='mt-6 text-xl font-semibold'>Blogs</h2>
         <p className='text-gray-500 '>
           I've been writing articles since 2018, mostly about web development
