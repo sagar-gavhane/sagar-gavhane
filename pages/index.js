@@ -5,7 +5,7 @@ import Header from '~/components/Header'
 import truncateString from '~/utils/truncateString'
 import projects from 'constants/projects.json'
 
-import blogs from './../blogs.json'
+import blogs from 'constants/blogs.json'
 
 export default function Home() {
   return (
