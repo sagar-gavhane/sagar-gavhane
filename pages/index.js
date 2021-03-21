@@ -68,7 +68,7 @@ export default function Home() {
                 className='grid gap-4 my-4 project-list-item'
               >
                 <img
-                  className='rounded'
+                  className='rounded project-list-item-logo flex justify-center items-center p-2 w-12 h-12 sm:w-16 sm:h-16'
                   src={project.logo}
                   alt={project.name}
                 />
