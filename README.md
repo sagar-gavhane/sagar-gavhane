@@ -4,7 +4,7 @@ My name is Sagar Gavhane.
 
 Passionate software engineer with 5+ years of experience in building products for numerous domains like fin-tech, real estate, video streaming, retail, and now e-commerce.
 
-I'm currently available for work, you can take a look at [my resume](https://github.com/sagar-gavhane/sagar-gavhane/blob/master/Resume.pdf).
+I'm currently available for work, you can take a look at [my resume](https://docs.google.com/document/d/1muStmZRnSzxEgleP6LY6YglgK3VO1tCY3Irxr7cLlZk/view?usp=sharing).
 
 I have an old blog which I no longer actively update - you probably want to follow me on [Twitter](https://twitter.com/sagar_codes), [Medium](https://medium.com/@sagar_gavhane), and [Dev](https://dev.to/sagar) for more up-to-date content.
 
