@@ -6,6 +6,8 @@ Passionate software engineer with 6+ years of experience in building products fo
 
 I'm currently available for work, you can take a look at [my resume](https://docs.google.com/document/d/1LWsqpLOGscdEOd-Zv1nthVHWim6njhR6sGTtYz76S_0/edit?usp=sharing).
 
+
+
 I have an old blog which I no longer actively update - you probably want to follow me on [Twitter](https://twitter.com/_sagar_gavhane), [Medium](https://medium.com/@sagar_gavhane), and [Dev](https://dev.to/sagar) for more up-to-date content.
 
 Most of my work is open source and publicly available on [GitHub](https://github.com/sagar-gavhane).
