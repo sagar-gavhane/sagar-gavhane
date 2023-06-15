@@ -6,4 +6,4 @@ In my previous roles, I have reduced page loading speed and bundle size of produ
 
 I am a problem-solver, critical thinker, and an excellent communicator, with a strong ability to work collaboratively as well as lead a team. I am always looking for new challenges and opportunities to learn and grow. If you are looking for a Tech Lead who can bring a strong work ethic, technical expertise, and soft skills to your team, let's connect.
 
-Resume link: https://docs.google.com/document/d/1LWsqpLOGscdEOd-Zv1nthVHWim6njhR6sGTtYz76S_0/edit?usp=sharing
+Resume link: https://docs.google.com/document/d/1VEVI_JiP8U6g6JgPrfQdXih0kh_HxCsNUxLDL5ciEZc/edit?usp=sharing
