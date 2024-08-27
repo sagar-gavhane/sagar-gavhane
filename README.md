@@ -4,7 +4,6 @@ I'm a passionate and experienced **Lead Backend Engineer** with over **7 years**
 
 ### 🕵️ Where to find me
 
-[![Github - sagar-gavhane](https://img.shields.io/static/v1?label=Github&message=sagar-gavhane&color=2ea44f&style=for-the-badge&logo=github)](https://github.com/sagar-gavhane)
 [![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=sagar-gavhane&color=0077B5&style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sagar-gavhane)
 [![Portfolio - sagar-gavhane.vercel.app](https://img.shields.io/static/v1?label=Portfolio&message=sagar-gavhane.vercel.app&color=important&style=for-the-badge&logo=web)](mailto:sgavhane70@gmail.com)
 
