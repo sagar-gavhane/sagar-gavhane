@@ -2,13 +2,13 @@
 
 I'm a passionate and experienced **Lead Backend Engineer** with over **7 years** of experience. My journey in software engineering has been a blend of coding, problem-solving, and mentoring. I thrive in building scalable microservices, leading teams, and optimizing complex systems.
 
-### Where to find me
+### 🕵️ Where to find me
 
 [![Github - sagar-gavhane](https://img.shields.io/static/v1?label=Github&message=sagar-gavhane&color=2ea44f&style=for-the-badge&logo=github)](https://github.com/sagar-gavhane)
 [![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=sagar-gavhane&color=0077B5&style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sagar-gavhane)
 [![Portfolio - sagar-gavhane.vercel.app](https://img.shields.io/static/v1?label=Portfolio&message=sagar-gavhane.vercel.app&color=important&style=for-the-badge&logo=web)](mailto:sgavhane70@gmail.com)
 
-### Languages and Tools
+### 🛠️ Languages and Tools
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
